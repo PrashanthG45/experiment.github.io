@@ -7,8 +7,8 @@
     background-size: cover;
 }
 .naya-gadi-logo {
-    height: 8vh;
-    width: 7vw;
+    height: 107px;
+    width: 90px;
     margin-left: 73px;
     
 }
@@ -29,10 +29,16 @@ margin-right: 95px;
 .items-right {
     margin-left: auto;
 }
+.section-1 {
+    padding-left: 90px;
+    padding-top: 100px;
+    width: 650px;
+}
+
 
 .section-1-heading-1 {
     font-family: "roboto";
-    font-size: 2vw;
+    font-size: 35px;
     font-weight: 600;
     color: #000000;
     padding-top: 90px;
@@ -40,14 +46,14 @@ margin-right: 95px;
 }
 .section-1-heading-2 {
     font-family: "roboto";
-    font-size: 5vw;
+    font-size: 70px;
     font-weight: 600;
     color: #000000;
     
 }
 .section-1-description {
     color: #8F9699;
-    font-size: 1vw;
+    font-size: 22px;
     padding-top: 17px;
 }
 
@@ -58,9 +64,9 @@ margin-right: 95px;
 .custom-button {
     font-family: "roboto";
     color: #ffffff;
-    font-size: 1.5vw;
-    height: 8vh;
-    width: 13vw;
+    font-size: 19px;
+    height: 55px;
+    width: 215px;
     border-width:0px;
     border-radius: 8px;
     background-color: #0C0C0C;
@@ -74,7 +80,7 @@ margin-right: 95px;
     height: auto;
     width: 54%;
     left: 45vw;
-    top: 12vh;
+    top: 20vh;
 }
 
 .detailed-section {
@@ -93,30 +99,31 @@ margin-right: 95px;
 }
 
 .section-2 {
-    margin-top: 340px;
+    margin-top: 290px;
+    padding-left: 90px;
 }
 
 .section-2-card1 {
-    width: 48vw;
+    width: 700px;
     margin-right: 20px;
 }
 
 .section-2-card2 {
-    width: 42vw;
+    width: 600px;
     margin-right: 20px;
 }
 
 .section-2-heading {
     font-family: "roboto";
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 55px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
 .section-2-description {
     font-family: "roboto";
-    font-size: 1.8vw;
+    font-size: 28px;
     margin-bottom: 30px;
 }
 
@@ -134,11 +141,11 @@ margin-right: 95px;
 
 .section-3 {
     text-align: center;
-    margin-top: 370px;
+    margin-top: 310px;
 }
 
 .section-3-heading {
-    font-size: 4vw;
+    font-size: 54px;
     font-family: "roboto";
     font-weight: bold;
 
@@ -146,8 +153,8 @@ margin-right: 95px;
 
 .section-3-card {
     background-color: white;
-    width: 25vw;
-    height: 65vh;
+    width: 370px;
+    height: 500px;
     border-style: solid;
     border-radius: 10px;
     border-width: 0px;
@@ -157,8 +164,8 @@ margin-right: 95px;
 }
 
 .section-3-card-image {
-    height: 45vh;
-    width: 25vw;
+    height: 340px;
+    width: 340px;
     padding: 20px;
     padding-top: 40px;
 }
@@ -167,10 +174,10 @@ margin-right: 95px;
 .button-2 {
     background-color: black;
     font-family: "roboto";
-    font-size: 1.2vw;
+    font-size: 16px;
     color: white;
-    height: 7vh;
-    width: 10vw;
+    height: 40px;
+    width: 130px;
     border-radius: 5px;
     border-width: 0px;
     margin-top: 30px;
@@ -178,10 +185,10 @@ margin-right: 95px;
 
 .section-3-button {
     position: absolute;
-    height: 10vh;
-    width: 5vw;
+    height: 80px;
+    width: 80px;
     left: 64vw;
-    top: 262vh;
+    top: 260vh;
 
 }
 
@@ -238,7 +245,7 @@ margin-right: 95px;
 }
 
 .section-4-top {
-    width: 85vw;
+    width: 1400px;
     margin-top: 170px;
 }
 
@@ -265,8 +272,8 @@ margin-right: 95px;
 }
 
 .section-4-card {
-    height: 60vh;
-    width: 22vw;
+    height: 430px;
+    width: 340px;
     background-color:#ffffff;
     padding: 15px;
     border-radius: 12px;
@@ -275,8 +282,8 @@ margin-right: 95px;
 }
 
 .section-4-card-image {
-    height: 40vh;
-    width: 20vw;
+    height: 310px;
+    width: 310px;
 }
 .sectio-4-card-title {
     color: #515B60;
@@ -309,7 +316,7 @@ body {
 
 form {
     background-color: #ffffff;
-    max-width: 70vw;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
@@ -318,7 +325,7 @@ form {
 
 .form-group {
     margin-bottom: 15px;
-    width: 40vw;
+    width: 600px;
 }
 
 label {
@@ -477,3 +484,74 @@ button[type="submit"]:hover {
     font-family: "roboto";
     margin-top: 30px;
 }
+
+
+
+/* Default styles for all sections */
+
+.section {
+    /* Add your default styles here */
+    padding: 20px;
+}
+
+/* Media query for Section 1 */
+
+@media (max-width: 1300px) {
+    .section-1 {
+        /* Add your responsive styles for Section 1 here */
+        padding-left: 75px;
+        width: 550px;
+    }
+    .section-1-heading-1 {
+        font-size: 25px;
+    }
+    .section-1-heading-2 {
+        font-size: 60px;
+    }
+}
+
+/* Media query for Section 2 */
+
+@media (max-width: 768px) {
+    .section-2 {
+        /* Add your responsive styles for Section 2 here */
+        background-color: lightgreen;
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
+/* Media query for Section 3 */
+
+@media (max-width: 992px) {
+    .section-3 {
+        /* Add your responsive styles for Section 3 here */
+        background-color: lightyellow;
+        padding: 30px;
+        font-size: 18px;
+    }
+}
+
+/* Media query for Section 4 */
+
+@media (max-width: 1200px) {
+    .section-4 {
+        /* Add your responsive styles for Section 4 here */
+        background-color: lightpink;
+        margin: 20px;
+        font-size: 20px;
+    }
+}
+
+/* Media query for Section 5 */
+
+@media (max-width: 1440px) {
+    .section-5 {
+        /* Add your responsive styles for Section 5 here */
+        background-color: lightgray;
+        padding: 40px;
+        font-size: 22px;
+    }
+}
+
+/* ... Repeat for the remaining sections */
