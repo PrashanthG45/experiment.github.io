@@ -147,7 +147,7 @@ margin-right: 95px;
 .section-3-card {
     background-color: white;
     width: 25vw;
-    height: 500px;
+    height: 65vh;
     border-style: solid;
     border-radius: 10px;
     border-width: 0px;
@@ -238,7 +238,7 @@ margin-right: 95px;
 }
 
 .section-4-top {
-    width: 1400px;
+    width: 85vw;
     margin-top: 170px;
 }
 
@@ -265,8 +265,8 @@ margin-right: 95px;
 }
 
 .section-4-card {
-    height: 430px;
-    width: 340px;
+    height: 60vh;
+    width: 22vw;
     background-color:#ffffff;
     padding: 15px;
     border-radius: 12px;
@@ -275,8 +275,8 @@ margin-right: 95px;
 }
 
 .section-4-card-image {
-    height: 310px;
-    width: 310px;
+    height: 40vh;
+    width: 20vw;
 }
 .sectio-4-card-title {
     color: #515B60;
@@ -309,7 +309,7 @@ body {
 
 form {
     background-color: #ffffff;
-    max-width: 1100px;
+    max-width: 70vw;
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
@@ -318,7 +318,7 @@ form {
 
 .form-group {
     margin-bottom: 15px;
-    width: 600px;
+    width: 40vw;
 }
 
 label {
