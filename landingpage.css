@@ -9,7 +9,7 @@
 .naya-gadi-logo {
     height: 107px;
     width: 90px;
-    margin-left: 73px;
+    margin-left: 90px;
     
 }
 
@@ -30,7 +30,6 @@ margin-right: 95px;
     margin-left: auto;
 }
 .section-1 {
-    padding-left: 90px;
     padding-top: 100px;
     width: 650px;
 }
@@ -77,10 +76,10 @@ margin-right: 95px;
 
 .section-1-image {
    position: absolute;
-    height: auto;
-    width: 54%;
-    left: 45vw;
-    top: 20vh;
+    height: 900px;
+    width: 800px;
+    left: 700px;
+    top: 14vh;
 }
 
 .detailed-section {
@@ -100,7 +99,6 @@ margin-right: 95px;
 
 .section-2 {
     margin-top: 290px;
-    padding-left: 90px;
 }
 
 .section-2-card1 {
@@ -129,9 +127,9 @@ margin-right: 95px;
 
 .section-2-image {
     position: absolute;
-    height: auto;
-    width: 43%;
-    left: 53vw;
+    height: 650px;
+    width: 650px;
+    left: 800px;
     top: 133vh;
 }
 
@@ -187,8 +185,8 @@ margin-right: 95px;
     position: absolute;
     height: 80px;
     width: 80px;
-    left: 64vw;
-    top: 260vh;
+    left: 980px;
+    top: 258vh;
 
 }
 
@@ -484,74 +482,3 @@ button[type="submit"]:hover {
     font-family: "roboto";
     margin-top: 30px;
 }
-
-
-
-/* Default styles for all sections */
-
-.section {
-    /* Add your default styles here */
-    padding: 20px;
-}
-
-/* Media query for Section 1 */
-
-@media (max-width: 1300px) {
-    .section-1 {
-        /* Add your responsive styles for Section 1 here */
-        padding-left: 75px;
-        width: 550px;
-    }
-    .section-1-heading-1 {
-        font-size: 25px;
-    }
-    .section-1-heading-2 {
-        font-size: 60px;
-    }
-}
-
-/* Media query for Section 2 */
-
-@media (max-width: 768px) {
-    .section-2 {
-        /* Add your responsive styles for Section 2 here */
-        background-color: lightgreen;
-        margin: 0;
-        font-size: 16px;
-    }
-}
-
-/* Media query for Section 3 */
-
-@media (max-width: 992px) {
-    .section-3 {
-        /* Add your responsive styles for Section 3 here */
-        background-color: lightyellow;
-        padding: 30px;
-        font-size: 18px;
-    }
-}
-
-/* Media query for Section 4 */
-
-@media (max-width: 1200px) {
-    .section-4 {
-        /* Add your responsive styles for Section 4 here */
-        background-color: lightpink;
-        margin: 20px;
-        font-size: 20px;
-    }
-}
-
-/* Media query for Section 5 */
-
-@media (max-width: 1440px) {
-    .section-5 {
-        /* Add your responsive styles for Section 5 here */
-        background-color: lightgray;
-        padding: 40px;
-        font-size: 22px;
-    }
-}
-
-/* ... Repeat for the remaining sections */
