@@ -75,11 +75,8 @@ margin-right: 95px;
 }
 
 .section-1-image {
-   position: absolute;
-    height: 900px;
-    width: 800px;
-    left: 700px;
-    top: 14vh;
+    height: auto;
+    width: 54vw;
 }
 
 .detailed-section {
