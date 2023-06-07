@@ -76,7 +76,8 @@ margin-right: 95px;
 
 .section-1-image {
     height: auto;
-    width: 54vw;
+    width: 114%;
+    margin-top: 60px;
 }
 
 .detailed-section {
@@ -95,16 +96,14 @@ margin-right: 95px;
 }
 
 .section-2 {
-    margin-top: 290px;
+    margin-top: 60px;
 }
 
 .section-2-card1 {
-    width: 700px;
     margin-right: 20px;
 }
 
 .section-2-card2 {
-    width: 600px;
     margin-right: 20px;
 }
 
@@ -123,11 +122,11 @@ margin-right: 95px;
 }
 
 .section-2-image {
-    position: absolute;
-    height: 650px;
-    width: 650px;
-    left: 800px;
-    top: 133vh;
+    position:relative;
+    height: auto;
+    width: 180%;
+    top: -430px;
+    left: 51vw;
 }
 
 .span2 {
@@ -136,7 +135,7 @@ margin-right: 95px;
 
 .section-3 {
     text-align: center;
-    margin-top: 310px;
+    margin-top: -90px;
 }
 
 .section-3-heading {
@@ -179,11 +178,11 @@ margin-right: 95px;
 }
 
 .section-3-button {
-    position: absolute;
+    position: relative;
     height: 80px;
     width: 80px;
-    left: 980px;
-    top: 258vh;
+    left: 57vw;
+    top: -82vh;
 
 }
 
